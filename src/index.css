@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navBar {
+  height: 8vh;
+  background-color: #d9d9d9;
+  display: flex;
+  padding: 1em;
+}
+
+.navBrand {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #303030;
+  cursor: pointer;
+  font-size: 1.6em;
+}
+
+.menu-list {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu-item a{
+  color: #303030;
+  font-weight: 500;
+  transition: .5s all ease-in;
+}
+
+.menu-item {
+  transition: .5s all ease-in;
+  color: #303030;
+}
+
+.menu-item:hover {
+  transform: scale(1.1);
+}
+
+.menu-item a:hover {
+  color: #868383;
+}
+
+.columnaIzquierda {
+  width: 50%;
+  height: 100vh;
+  background-image: url('https://player8.org/wp-content/uploads/2021/02/Computador-para-trabajar-y-estudiar-890x606.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: .5s all ease-in-out;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #303030d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  margin: auto;
+  font-size: 4rem;
+  color: #d9d9d9;
+  transition: .5s all ease-in-out;
+}
+
+.titulo:hover {
+  transform: translateX(20px);
+}
+
+.info {
+  padding: 0 1em 0 1em;
+}
+
+.parrafoInfo {
+  color: #b3b1b1;
+  font-weight: 600;
+  padding-top: 1em;
+}
+
+.enfasis {
+  color: #d9d9d9;
+  font-weight: 800;
+}
+
+
+
