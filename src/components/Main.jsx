@@ -2,8 +2,10 @@ import Info from './Info'
 
 function Main() {
       return (  
-            <>
-                  <Info/>
+            <>    
+                  <section className='main'>
+                        <Info/>
+                  </section>
             </>
       );
 }

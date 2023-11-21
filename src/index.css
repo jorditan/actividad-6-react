@@ -8,7 +8,7 @@
 }
 
 .navBar {
-  height: 8vh;
+  height: 12vh;
   background-color: #d9d9d9;
   display: flex;
   padding: 1em;
@@ -51,32 +51,50 @@
   color: #868383;
 }
 
+.main {
+  height: 100vh;
+  display: flex;
+}
+
+.columnaDerecha {
+  width: 50%;
+  height: 100%;
+  background-color: #fafafa;
+}
+
+
 .columnaIzquierda {
   width: 50%;
-  height: 100vh;
+  height: 100%;
   background-image: url('https://player8.org/wp-content/uploads/2021/02/Computador-para-trabajar-y-estudiar-890x606.png');
   background-repeat: no-repeat;
   background-size: cover;
   transition: .5s all ease-in-out;
 }
 
+
 .container {
   width: 100%;
   height: 100%;
-  background-color: #303030d8;
+  background-color: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.columnaIzquierda .container {
+  background-color: #303030d8;
+}
+
 .titulo {
   margin: auto;
   font-size: 4rem;
-  color: #d9d9d9;
+  color: #fafafa;
   transition: .5s all ease-in-out;
 }
 
 .titulo:hover {
+  color: #d9d9d9;
   transform: translateX(20px);
 }
 
@@ -96,4 +114,50 @@
 }
 
 
+#form {
+  height: 25em;
+  background-color: #303030;
+  width: 20em;
+  border-radius: 20px;
+  box-shadow:  23px 23px 46px #c3c3c3,
+  -23px -23px 46px #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
+.contenido {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+#form input,
+#form select{
+  width: 100%;
+  height: 2em;
+}
+
+label {
+  padding-bottom: .5em;
+  color: #fafafa;
+
+}
+
+#envio {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #fafafa;
+  color: #fafafa;
+  width: 8em;
+  height: 2em;
+  transition: .5s all ease-in;
+}
+
+#envio:hover {
+  background-color: #fafafa;
+  color: #303030;
+  cursor: pointer;
+}
